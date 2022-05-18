@@ -27,18 +27,18 @@ def banner():
     b = [
     
 
-   ' ██████╗░███████╗██╗░░██╗ ',
-   ' ██╔══██╗██╔════╝╚██╗██╔╝ ',
-   ' ██████╔╝█████╗░░░╚███╔╝░ ',
-   ' ██╔══██╗██╔══╝░░░██╔██╗░ ',
-   ' ██║░░██║███████╗██╔╝╚██╗ ',
-   ' ╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝ ',
+   ' ██╗░░░░░██╗░░░██╗██╗░░░░░██╗ ',
+   ' ██║░░░░░██║░░░██║██║░░░░░██║ ',
+   ' ██║░░░░░██║░░░██║██║░░░░░██║ ',
+   ' ██║░░░░░██║░░░██║██║░░░░░██║ ',
+   ' ███████╗╚██████╔╝███████╗██║ ',
+   ' ╚══════╝░╚═════╝░╚══════╝╚═╝ ',
 
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     #print('=============SON OF GOD==============')
-    print(f'   Version: 1.0 | Author: REX{n}\n')
+    print(f'   Version: 1.0 | Author: HEROX{n}\n')
 
 def clr():
     if os.name == 'nt':
@@ -148,7 +148,7 @@ while True:
         print(f'\n{lg}[i] Checking for updates...')
         try:
             # https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/version.txt')
+            version = requests.get('https://raw.githubusercontent.com/Herox-xd/Luli-Member-Adder/main/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
@@ -158,11 +158,11 @@ while True:
             if prompt == 'y' or prompt == 'yes' or prompt == 'Y':
                 print(f'{lg}[i] Downloading updates...')
                 if os.name == 'nt':
-                    os.system('del rexadder.py')
-                    os.system('del rexmanager.py')
+                    os.system('del adder.py')
+                    os.system('del manager.py')
                 else:
-                    os.system('rm rexadder.py')
-                    os.system('rm rexmanager.py')
+                    os.system('rm adder.py')
+                    os.system('rm manager.py')
                 #os.system('del scraper.py')
                 os.system('curl -l -O https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/rexadder.py')
                 os.system('curl -l -O https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/rexmanager.py')
