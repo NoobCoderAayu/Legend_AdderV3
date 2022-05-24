@@ -52,7 +52,6 @@ while True:
     print(lg+'[1] Add New Accounts'+n)
     print(lg+'[2] Filter All Banned Accounts'+n)
     print(lg+'[3] Delete specific accounts'+n)
-    print(lg+'[4] Update your Script'+n)
     print(lg+'[5] Exit'+n)
     a = int(input('\nEnter Your Choice: '))
     if a == 1:
@@ -143,39 +142,3 @@ while True:
         print(f'\n{lg}[+] Account Deleted{n}')
         input(f'\nPress enter to goto main menu...')
         f.close()
-    elif a == 4:
-        # thanks to github.com/krish775 for the snippet below
-        print(f'\n{lg}[i] Checking for updates...')
-        try:
-            # https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/Herox-xd/Luli-Member-Adder/main/version.txt')
-        except:
-            print(f'{r} You are not connected to the internet')
-            print(f'{r} Please connect to the internet and retry')
-            exit()
-        if float(version.text) > 0.9:
-            prompt = str(input(f'{lg}[~] Update available[Version {version.text}]. Download?[y/n]: {r}'))
-            if prompt == 'y' or prompt == 'yes' or prompt == 'Y':
-                print(f'{lg}[i] Downloading updates...')
-                if os.name == 'nt':
-                    os.system('del adder.py')
-                    os.system('del manager.py')
-                else:
-                    os.system('rm adder.py')
-                    os.system('rm manager.py')
-                #os.system('del scraper.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/rexadder.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/rexmanager.py')
-                print(f'{gr}[*] Updated to version: {version.text}')
-                input('Press enter to exit...')
-                exit()
-            else:
-                print(f'{lg}[!] Update aborted.')
-                input('Press enter to goto main menu...')
-        else:
-            print(f'{lg}[i] Your Adder is already up to date')
-            input('Press enter to goto main menu...')
-    elif a == 5:
-        clr()
-        banner()
-        exit()
