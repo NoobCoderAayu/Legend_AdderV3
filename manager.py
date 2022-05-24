@@ -27,18 +27,18 @@ def banner():
     b = [
     
 
-   ' ██╗░░░░░██╗░░░██╗██╗░░░░░██╗ ',
-   ' ██║░░░░░██║░░░██║██║░░░░░██║ ',
-   ' ██║░░░░░██║░░░██║██║░░░░░██║ ',
-   ' ██║░░░░░██║░░░██║██║░░░░░██║ ',
-   ' ███████╗╚██████╔╝███████╗██║ ',
-   ' ╚══════╝░╚═════╝░╚══════╝╚═╝ ',
+   ' ░█████╗░░█████╗░██╗░░░██╗██╗░░░██╗ ',
+   ' ██╔══██╗██╔══██╗╚██╗░██╔╝██║░░░██║ ',
+   ' ███████║███████║░╚████╔╝░██║░░░██║ ',
+   ' ██╔══██║██╔══██║░░╚██╔╝░░██║░░░██║ ',
+   ' ██║░░██║██║░░██║░░░██║░░░╚██████╔╝ ',
+   ' ╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░╚═════╝░ ',
 
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     #print('=============SON OF GOD==============')
-    print(f'   Version: 1.0 | Author: HEROX{n}\n')
+    print(f'   Version: 1.0 | Author: Legend_Trickx{n}\n')
 
 def clr():
     if os.name == 'nt':
@@ -173,7 +173,7 @@ while True:
                 print(f'{lg}[!] Update aborted.')
                 input('Press enter to goto main menu...')
         else:
-            print(f'{lg}[i] Your Astra is already up to date')
+            print(f'{lg}[i] Your Adder is already up to date')
             input('Press enter to goto main menu...')
     elif a == 5:
         clr()
