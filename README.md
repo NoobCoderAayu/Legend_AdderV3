@@ -1,4 +1,4 @@
-# 🇷‌🇪‌🇽‌ 1.0
+
 <p align='center'><b>Cross Platform Telegram Members Scraping and Adding Toolkit</b></p>
 
 # 🇺‌🇸‌🇦‌🇬‌🇪‌ 👨‍🔧
@@ -19,6 +19,3 @@
 * Adds to private/public groups
 * Scrapes members from private/public groups
 * Cross platform- Works in Android[Termux], Linux, Windows, etc
-
-# 🇸‌🇨‌🇷‌🇪‌🇪‌🇳‌🇸‌🇭‌🇴‌🇹‌ 📷
-<p align='center'><img src='https://github.com/krish775/Rex-TG-Member-Adder/blob/main/Screenshot_20210814-153259_Termux.png' width='720' height='1520'></p>
