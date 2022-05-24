@@ -7,8 +7,6 @@
 * Then you need to store your accounts using `rexmanager.py`
 * Then, scrape and add members using `rexadder.py`
 
-<b> For full tutorial, refer to <a href='https://github.com/krish775/Rex-TG-Member-Adder/blob/main/how_to_use.txt'>how_to_use.txt</a> </b>
-
 # 🇫‌🇪‌🇦‌🇹‌🇺‌🇷‌🇪‌🇸‌ 🔥
 
 * No need of API Id and API hash- It requires only phone numbers
