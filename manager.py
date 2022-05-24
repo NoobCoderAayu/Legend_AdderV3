@@ -52,7 +52,7 @@ while True:
     print(lg+'[1] Add New Accounts'+n)
     print(lg+'[2] Filter All Banned Accounts'+n)
     print(lg+'[3] Delete specific accounts'+n)
-    print(lg+'[5] Exit'+n)
+    print(lg+'[4] Exit'+n)
     a = int(input('\nEnter Your Choice: '))
     if a == 1:
         new_accs = []
