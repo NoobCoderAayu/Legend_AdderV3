@@ -38,7 +38,7 @@ def banner():
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     #print('=============SON OF GOD==============')
-    print(f'   Version: 1.0 | Author: Legend_Trickx{n}\n')
+    print(f'   Version: 1.2 | Author: @Legend_Trickx{n}\n')
 
 def clr():
     if os.name == 'nt':
@@ -52,7 +52,8 @@ while True:
     print(lg+'[1] Add New Accounts'+n)
     print(lg+'[2] Filter All Banned Accounts'+n)
     print(lg+'[3] Delete specific accounts'+n)
-    print(lg+'[4] Exit'+n)
+    print(lg+'[4] Join Our Tg Channel'+n)
+    print(lg+'[5] Exit'+n)
     a = int(input('\nEnter Your Choice: '))
     if a == 1:
         new_accs = []
@@ -142,3 +143,6 @@ while True:
         print(f'\n{lg}[+] Account Deleted{n}')
         input(f'\nPress enter to goto main menu...')
         f.close()
+
+        elif a == 4:
+        print(f'\n{gr} [*] Tg Channel - @Legend_Trickx\n Support Group - @TeamHamkers')
