@@ -19,7 +19,7 @@ pip install telethon
 
 git clone https://github.com/NoobCoderAayu/Legend_AdderV2
 
-cd Legend_AdderV2
+cd Legend_AdderV3
 
 pip install -r requirements.txt
 
