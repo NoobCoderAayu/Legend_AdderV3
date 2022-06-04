@@ -150,8 +150,6 @@ print(f'{cy}[1]{lg} Add to private group')
 choice = int(input(f'{INPUT}{cy} Enter choice: {r}'))
 if choice == 0:
     target = str(input(f'{INPUT}{cy} Enter public group link: {r}'))
-else:
-    target = str(input(f'{INPUT}{cy} Enter private group link: {r}'))
 print(f'{grey}_'*50)
 #status_choice = str(input(f'{INPUT}{cy} Do you wanna add active members?[y/n]: {r}'))
 to_use = [x for x in accounts[:number_of_accs]]
