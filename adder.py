@@ -128,10 +128,10 @@ try:
                 os.system('del status.dat')
             else: 
                 os.system('rm status.dat')
-            scraped_grp = input(f'{INPUT}{cy} Public/Private group link to scrape members: {r}')
+            scraped_grp = input(f'{INPUT}{cy} Public group link to scrape members: {r}')
             index = 0
 except:
-    scraped_grp = input(f'{INPUT}{cy} Public/Private group link to scrape members: {r}')
+    scraped_grp = input(f'{INPUT}{cy} Public group link to scrape members: {r}')
     index = 0
 # load all the accounts(phonenumbers)
 accounts = []
