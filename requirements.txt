@@ -1,2 +1,3 @@
 requests
 colorama==0.4.3
+termimage
