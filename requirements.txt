@@ -1,3 +1,2 @@
 requests
 colorama==0.4.3
-termimage==1.2.0
